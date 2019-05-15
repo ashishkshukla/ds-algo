@@ -1,3 +1,3 @@
 # ds-algo
 
-Repository for data strucutes and algorithms practices
+Repository for data structures and algorithms practices
