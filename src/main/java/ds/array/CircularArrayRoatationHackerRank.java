@@ -5,7 +5,13 @@ import java.util.List;
 
 public class CircularArrayRoatationHackerRank {
 	public static void main(String[] args) {
-
+		int a[] = { 23, 44, 11, 21, 22 };
+		int k = 2;
+		int[] queries = { 1, 4, 2 };
+		int[] values = circularArrayRotation(a, k, queries);
+		for (int i = 0; i < values.length; i++) {
+			System.out.println(values[i]);
+		}
 	}
 
 	static int[] circularArrayRotation(int[] a, int k, int[] queries) {
